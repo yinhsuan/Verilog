@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/11tmp
+valu
+Z0 !s110 1563534654
+!i10b 1
+!s100 3RcElIU:?NBoj2g3QNO[b1
+IYn:JDT6P2:9z2MO4@KnOS3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/acer/Desktop/0511049
+w1563528452
+8C:/Users/acer/Desktop/11tmp/alu.v
+FC:/Users/acer/Desktop/11tmp/alu.v
+L0 29
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1563534654.000000
+!s107 C:/Users/acer/Desktop/11tmp/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/acer/Desktop/11tmp/alu.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+valu_32th
+R0
+!i10b 1
+!s100 S:mnDilN@E<Th>O6YV`E]2
+IoK521fE]DN0iNj[U3[m5:0
+R1
+R2
+w1563530006
+8C:/Users/acer/Desktop/11tmp/alu_32th.v
+FC:/Users/acer/Desktop/11tmp/alu_32th.v
+Z6 L0 23
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/acer/Desktop/11tmp/alu_32th.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/acer/Desktop/11tmp/alu_32th.v|
+!s101 -O0
+!i113 1
+R5
+valu_top
+R0
+!i10b 1
+!s100 h0Til>7>S7fFhHQd;DIAJ1
+IQ62KzofN;k2n4JMSZTeUh3
+R1
+R2
+w1563530016
+8C:/Users/acer/Desktop/11tmp/alu_top.v
+FC:/Users/acer/Desktop/11tmp/alu_top.v
+R6
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/acer/Desktop/11tmp/alu_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/acer/Desktop/11tmp/alu_top.v|
+!s101 -O0
+!i113 1
+R5
+vtestbench
+R0
+!i10b 1
+!s100 jUEDYja:@RZVNbfMe2S>=3
+InlNc@aNSb0LNJd6Z`YGS10
+R1
+R2
+w1563015666
+8C:/Users/acer/Desktop/11tmp/testbench.v
+FC:/Users/acer/Desktop/11tmp/testbench.v
+L0 25
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/acer/Desktop/11tmp/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/acer/Desktop/11tmp/testbench.v|
+!s101 -O0
+!i113 1
+R5

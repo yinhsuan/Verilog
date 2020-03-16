@@ -1,0 +1,274 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vAdder
+Z0 !s110 1564136043
+!i10b 1
+!s100 T:Mkfl8`[Qe>3Y[MAdDAE0
+I:QDOSGFh6nB<7SBdklUz43
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/11tmp
+w1564136009
+8D:/11tmp/CO_Lab2/code/Adder.v
+FD:/11tmp/CO_Lab2/code/Adder.v
+Z3 L0 13
+Z4 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z5 !s108 1564136043.000000
+!s107 D:/11tmp/CO_Lab2/code/Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/11tmp/CO_Lab2/code/Adder.v|
+!s101 -O0
+!i113 1
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@adder
+vALU
+R0
+!i10b 1
+!s100 j6Bi2C_AjkP[2FeMZ?`G>3
+IMzH^RSO=f0lVZLP49GN[H2
+R1
+R2
+w1564136022
+8D:/11tmp/CO_Lab2/code/ALU.v
+FD:/11tmp/CO_Lab2/code/ALU.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/11tmp/CO_Lab2/code/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/11tmp/CO_Lab2/code/ALU.v|
+!s101 -O0
+!i113 1
+R6
+n@a@l@u
+vALU_Ctrl
+R0
+!i10b 1
+!s100 7YDX<Lbd:QI?G536OGo>_1
+I]ZD0Zb6eG:=:Y7Uz_1]O_0
+R1
+R2
+w1564136024
+8D:/11tmp/CO_Lab2/code/ALU_Ctrl.v
+FD:/11tmp/CO_Lab2/code/ALU_Ctrl.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/11tmp/CO_Lab2/code/ALU_Ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/11tmp/CO_Lab2/code/ALU_Ctrl.v|
+!s101 -O0
+!i113 1
+R6
+n@a@l@u_@ctrl
+vDecoder
+R0
+!i10b 1
+!s100 VhCHOOmQ8h]6Ha>F@QLeo0
+I]jf>?FQ9><OkenC9JCDHn0
+R1
+R2
+w1564136025
+8D:/11tmp/CO_Lab2/code/Decoder.v
+FD:/11tmp/CO_Lab2/code/Decoder.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/11tmp/CO_Lab2/code/Decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/11tmp/CO_Lab2/code/Decoder.v|
+!s101 -O0
+!i113 1
+R6
+n@decoder
+vInstr_Memory
+R0
+!i10b 1
+!s100 [[Vhb7N=BP_bz?MN:88891
+IIH<<=9<IgSaE=GMXHmoCU2
+R1
+R2
+w1564136026
+8D:/11tmp/CO_Lab2/code/Instr_Memory.v
+FD:/11tmp/CO_Lab2/code/Instr_Memory.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/11tmp/CO_Lab2/code/Instr_Memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/11tmp/CO_Lab2/code/Instr_Memory.v|
+!s101 -O0
+!i113 1
+R6
+n@instr_@memory
+vMUX_2to1
+Z7 !s110 1564136044
+!i10b 1
+!s100 :9RVA^_kn4BB<<2H0[oX:2
+I;ZIY7PRb`__`BjG>cn=7N1
+R1
+R2
+w1564136028
+8D:/11tmp/CO_Lab2/code/MUX_2to1.v
+FD:/11tmp/CO_Lab2/code/MUX_2to1.v
+R3
+R4
+r1
+!s85 0
+31
+Z8 !s108 1564136044.000000
+!s107 D:/11tmp/CO_Lab2/code/MUX_2to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/11tmp/CO_Lab2/code/MUX_2to1.v|
+!s101 -O0
+!i113 1
+R6
+n@m@u@x_2to1
+vProgramCounter
+R7
+!i10b 1
+!s100 GUB>g:JQ0;6]4_=<aSnm23
+IbH[?dO_ZM<]]Q_>YmRM]<1
+R1
+R2
+w1564136029
+8D:/11tmp/CO_Lab2/code/ProgramCounter.v
+FD:/11tmp/CO_Lab2/code/ProgramCounter.v
+R3
+R4
+r1
+!s85 0
+31
+R8
+!s107 D:/11tmp/CO_Lab2/code/ProgramCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/11tmp/CO_Lab2/code/ProgramCounter.v|
+!s101 -O0
+!i113 1
+R6
+n@program@counter
+vReg_File
+R7
+!i10b 1
+!s100 cgP@nejaBb?U1UK`JNZ4I3
+IF_Y3VbJ68?YA8n_gV@0P:1
+R1
+R2
+w1564136030
+8D:/11tmp/CO_Lab2/code/Reg_File.v
+FD:/11tmp/CO_Lab2/code/Reg_File.v
+Z9 L0 12
+R4
+r1
+!s85 0
+31
+R8
+!s107 D:/11tmp/CO_Lab2/code/Reg_File.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/11tmp/CO_Lab2/code/Reg_File.v|
+!s101 -O0
+!i113 1
+R6
+n@reg_@file
+vShift_Left_Two_32
+R7
+!i10b 1
+!s100 Z[Ai3e4?0a3a2dFg:f@580
+I^P5>kOmARG<B_]]4m4H]M0
+R1
+R2
+w1564136031
+8D:/11tmp/CO_Lab2/code/Shift_Left_Two_32.v
+FD:/11tmp/CO_Lab2/code/Shift_Left_Two_32.v
+L0 10
+R4
+r1
+!s85 0
+31
+R8
+!s107 D:/11tmp/CO_Lab2/code/Shift_Left_Two_32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/11tmp/CO_Lab2/code/Shift_Left_Two_32.v|
+!s101 -O0
+!i113 1
+R6
+n@shift_@left_@two_32
+vSign_Extend
+R7
+!i10b 1
+!s100 OzaRD4QEKF5K2:8YCXUVf0
+I_V398m`MDXeY3E<DkoDfj3
+R1
+R2
+w1564136033
+8D:/11tmp/CO_Lab2/code/Sign_Extend.v
+FD:/11tmp/CO_Lab2/code/Sign_Extend.v
+R3
+R4
+r1
+!s85 0
+31
+R8
+!s107 D:/11tmp/CO_Lab2/code/Sign_Extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/11tmp/CO_Lab2/code/Sign_Extend.v|
+!s101 -O0
+!i113 1
+R6
+n@sign_@extend
+vSimple_Single_CPU
+R7
+!i10b 1
+!s100 PWVlcBHAa5YFD6njB3=X63
+IlO9I>33DWF?[[fcC;3cSo0
+R1
+R2
+w1564136034
+8D:/11tmp/CO_Lab2/code/Simple_Single_CPU.v
+FD:/11tmp/CO_Lab2/code/Simple_Single_CPU.v
+R9
+R4
+r1
+!s85 0
+31
+R8
+!s107 D:/11tmp/CO_Lab2/code/Simple_Single_CPU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/11tmp/CO_Lab2/code/Simple_Single_CPU.v|
+!s101 -O0
+!i113 1
+R6
+n@simple_@single_@c@p@u
+vTestBench
+R0
+!i10b 1
+!s100 _0=>ldQzOVC?ZfHRFh]K30
+IhF<Bhm_02I;NE1IPf]a2`2
+R1
+R2
+w1564136036
+8D:/11tmp/CO_Lab2/code/Test_Bench.v
+FD:/11tmp/CO_Lab2/code/Test_Bench.v
+L0 16
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/11tmp/CO_Lab2/code/Test_Bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/11tmp/CO_Lab2/code/Test_Bench.v|
+!s101 -O0
+!i113 1
+R6
+n@test@bench

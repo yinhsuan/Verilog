@@ -1,0 +1,73 @@
+//Subject:     CO project 2 - ALU
+//--------------------------------------------------------------------------------
+//Version:     1
+//--------------------------------------------------------------------------------
+//Writer:      
+//----------------------------------------------
+//Date:        
+//----------------------------------------------
+//Description: 
+//--------------------------------------------------------------------------------
+//0511049
+
+module ALU(
+    	src1_i,
+	src2_i,
+	ctrl_i,
+	result_o,
+	zero_o,
+	RS_i,
+	imm_i,
+	instr_mem_i
+	);
+     
+//I/O ports
+input  [32-1:0]  src1_i;
+input  [32-1:0]	 src2_i;
+input  [4-1:0]   ctrl_i;
+input  [5-1:0]   RS_i;
+input  [16-1:0]  imm_i;
+input  [32-1:0]  instr_mem_i;
+
+output [32-1:0]	 result_o;
+output           zero_o;
+
+//Internal signals
+reg    [32-1:0]  result_o;
+wire             zero_o;
+wire   [32-1:0]	 RS_tmp;//////////
+wire   [32-1:0]	 imm_tmp;//////
+
+//Parameter
+assign zero_o = result_o ? 1'b0 : 1'b1;////////////
+assign RS_tmp[4:0] = RS_i[4:0];
+assign RS_tmp[31:5] = 27'b0;
+assign imm_tmp[15:0] = imm_i[15:0];
+assign imm_tmp[31:16] = imm_i[15] ? 16'b1111_1111_1111_1111 : 16'b0000_0000_0000_0000;
+//Main function
+//////////////////////////
+always @(src1_i, src2_i, ctrl_i) begin
+	case (ctrl_i)
+		1 : result_o <= src1_i + src2_i; //add
+		2 : result_o <= src1_i - src2_i; //sub
+		3 : result_o <= src1_i | src2_i; //or
+		4 : result_o <= src1_i & src2_i; //and
+		5 : result_o <= (src1_i < src2_i)? 1'b1 : 1'b0; //slt
+		6 : result_o <= src1_i + src2_i; //addi
+		7 : result_o <= (src1_i < src2_i)? 1'b1 : 1'b0; //slti
+		8 : result_o <= (src1_i == src2_i)? 1'b0 : 1'b1; //beq
+		9 : result_o <= RS_tmp + imm_tmp; //lw
+		10: result_o <= RS_tmp + imm_tmp; //sw
+		11: result_o <= instr_mem_i; //jal
+		default : result_o <= 1'b0;
+	endcase
+end
+///////////////////////////
+endmodule
+
+
+
+
+
+                    
+                    
